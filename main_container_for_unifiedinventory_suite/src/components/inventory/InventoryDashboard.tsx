@@ -8,15 +8,6 @@ import { inventoryService } from '@/services/inventoryService';
 export default function InventoryDashboard() {
   const { state, dispatch } = useInventory();
   const { stats, isLoading, error } = state;
-  // Show error if present
-  if (error) {
-    return (
-      <div className="bg-red-100 dark:bg-red-900/30 border border-red-400 dark:border-red-500 text-red-700 dark:text-red-400 px-4 py-3 rounded">
-        <p className="font-bold">Error</p>
-        <p>{error}</p>
-      </div>
-    );
-  }
 
   useEffect(() => {
     const loadData = async () => {
@@ -29,8 +20,9 @@ export default function InventoryDashboard() {
         dispatch({ type: 'SET_STATS', payload: statsData });
         
         dispatch({ type: 'SET_ERROR', payload: null });
-      } catch (error) {
-        dispatch({ type: 'SET_ERROR', payload: 'Failed to load inventory data' });
+      } catch (err) {
+        const errorMessage = err instanceof Error ? err.message : 'Failed to load inventory data';
+        dispatch({ type: 'SET_ERROR', payload: errorMessage });
       } finally {
         dispatch({ type: 'SET_LOADING', payload: false });
       }
@@ -43,6 +35,15 @@ export default function InventoryDashboard() {
     return (
       <div className="flex justify-center items-center h-64">
         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="bg-red-100 dark:bg-red-900/30 border border-red-400 dark:border-red-500 text-red-700 dark:text-red-400 px-4 py-3 rounded">
+        <p className="font-bold">Error</p>
+        <p>{error}</p>
       </div>
     );
   }

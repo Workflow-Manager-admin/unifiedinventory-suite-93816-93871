@@ -25,8 +25,9 @@ export default function InventoryList() {
         const items = await inventoryService.getInventoryItems();
         dispatch({ type: 'SET_ITEMS', payload: items });
         dispatch({ type: 'SET_ERROR', payload: null });
-      } catch (error) {
-        dispatch({ type: 'SET_ERROR', payload: 'Failed to load inventory data' });
+      } catch (err) {
+        const errorMessage = err instanceof Error ? err.message : 'Failed to load inventory data';
+        dispatch({ type: 'SET_ERROR', payload: errorMessage });
       } finally {
         dispatch({ type: 'SET_LOADING', payload: false });
       }

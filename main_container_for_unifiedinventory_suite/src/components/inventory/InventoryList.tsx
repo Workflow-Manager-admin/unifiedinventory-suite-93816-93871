@@ -9,7 +9,7 @@ import Link from 'next/link';
 // PUBLIC_INTERFACE
 export default function InventoryList() {
   const { state, dispatch, applyFilter } = useInventory();
-  const { filteredItems, isLoading, filter } = state;
+  const { filteredItems, isLoading, filter, error } = state;
 
   const [selectedItems, setSelectedItems] = useState<Set<string>>(new Set());
   const [searchQuery, setSearchQuery] = useState('');

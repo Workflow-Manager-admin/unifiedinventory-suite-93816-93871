@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { useInventory } from '@/contexts/InventoryContext';
 import { inventoryService } from '@/services/inventoryService';
-import { InventoryItem, InventoryFilter } from '@/types/inventory';
+import { InventoryFilter } from '@/types/inventory';
 import Link from 'next/link';
 
 // PUBLIC_INTERFACE

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { useInventory } from '@/contexts/InventoryContext';
 import { inventoryService } from '@/services/inventoryService';
 import { InventoryFilter } from '@/types/inventory';
@@ -36,13 +36,29 @@ export default function InventoryList() {
     loadInventoryData();
   }, [dispatch]);
 
-  // Apply filters whenever filter dependencies change
+  // Apply filters whenever filter dependencies change, but exclude filter itself
+  // to prevent infinite loop
+  const prevFilterRef = useRef(filter);
   useEffect(() => {
+    // Skip if the only thing that changed is the filter object from state
+    // which happens after applyFilter is called
+    if (
+      prevFilterRef.current.search === filter.search &&
+      prevFilterRef.current.sortBy === filter.sortBy &&
+      prevFilterRef.current.sortDirection === filter.sortDirection &&
+      JSON.stringify(prevFilterRef.current.categories) === JSON.stringify(filter.categories)
+    ) {
+      return;
+    }
+    
+    prevFilterRef.current = filter;
+    
     const newFilter: InventoryFilter = {
       ...filter,
       search: searchQuery,
       categories: currentCategory ? [currentCategory] : undefined
     };
+    
     applyFilter(newFilter);
   }, [searchQuery, currentCategory, applyFilter, filter]);
 

@@ -4,6 +4,7 @@ import React, { useEffect } from 'react';
 import { useInventory } from '@/contexts/InventoryContext';
 // Service import removed as it's not used in this component
 import { InventoryTransaction } from '@/types/inventory';
+import Link from 'next/link';
 
 interface InventoryItemProps {
   itemId: string;
@@ -227,7 +228,11 @@ export default function InventoryItem({ itemId }: InventoryItemProps) {
             <h2 className="text-lg font-semibold mb-4 text-gray-800 dark:text-white">Supplier Info</h2>
             
             <div className="space-y-3">
-              <DetailItem label="Supplier" value={currentItem.supplierInfo.name} />
+              <DetailItem label="Supplier" value={
+                <Link href={`/suppliers/${currentItem.supplierInfo.id}`} className="text-blue-600 dark:text-blue-400 hover:underline">
+                  {currentItem.supplierInfo.name}
+                </Link>
+              } />
               {currentItem.supplierInfo.contactName && (
                 <DetailItem label="Contact" value={currentItem.supplierInfo.contactName} />
               )}

@@ -220,8 +220,9 @@ export function InventoryProvider({ children }: InventoryProviderProps) {
         dispatch({ type: 'ADD_ITEM', payload: item });
       }
       dispatch({ type: 'SET_ERROR', payload: null });
-    } catch (error) {
-      dispatch({ type: 'SET_ERROR', payload: 'Failed to save item' });
+    } catch (err) {
+      const errorMessage = err instanceof Error ? err.message : 'Failed to save item';
+      dispatch({ type: 'SET_ERROR', payload: errorMessage });
     } finally {
       dispatch({ type: 'SET_LOADING', payload: false });
     }

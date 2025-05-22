@@ -13,3 +13,42 @@ You can learn more, including how to opt-out if you'd not like to participate in
 https://nextjs.org/telemetry
 
  ✓ Ready in 4.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 27.9s (744 modules)
+ ⚠ Blocked cross-origin request from vscode-internal-499405-beta.beta01.cloud.kavia.ai. To allow this, configure "allowedDevOrigins" in next.config
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET / 200 in 5493ms
+ ✓ Compiled in 2.3s (331 modules)
+ GET / 200 in 1207ms
+ ✓ Compiled in 1091ms (331 modules)
+ ✓ Compiled in 800ms (331 modules)
+ ✓ Compiled in 704ms (331 modules)
+ ✓ Compiled in 685ms (331 modules)
+ ✓ Compiled in 796ms (331 modules)
+ ✓ Compiled in 801ms (331 modules)
+ ✓ Compiled in 693ms (331 modules)
+ ✓ Compiled in 693ms (331 modules)
+ ✓ Compiled in 706ms (331 modules)
+ ✓ Compiled in 407ms (331 modules)
+ ✓ Compiled in 592ms (331 modules)
+ ✓ Compiled in 507ms (331 modules)
+ ✓ Compiled in 497ms (331 modules)
+ ✓ Compiled in 484ms (331 modules)
+ ✓ Compiled in 495ms (331 modules)
+ ✓ Compiled in 415ms (331 modules)
+ ✓ Compiled in 500ms (331 modules)
+ ✓ Compiled in 408ms (331 modules)
+ ✓ Compiled in 486ms (331 modules)
+ ✓ Compiled in 400ms (331 modules)
+ ✓ Compiled in 507ms (331 modules)
+ ✓ Compiled in 487ms (331 modules)
+ ✓ Compiled in 392ms (331 modules)
+ ✓ Compiled in 492ms (331 modules)
+ ✓ Compiled in 401ms (331 modules)
+ ✓ Compiled in 719ms (331 modules)
+ ✓ Compiled in 406ms (331 modules)
+ ✓ Compiled in 314ms (331 modules)
+ ✓ Compiled in 502ms (331 modules)
+ ✓ Compiled in 597ms (331 modules)
+ ✓ Compiled in 316ms (331 modules)
+ ✓ Compiled in 581ms (331 modules)

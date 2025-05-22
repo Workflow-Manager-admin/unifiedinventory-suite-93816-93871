@@ -69,10 +69,12 @@ export default function Header({ toggleSidebar, sidebarOpen }: HeaderProps) {
           <div className="relative">
             <button className="flex items-center text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
               <div className="h-8 w-8 rounded-full bg-blue-500 flex items-center justify-center text-white font-semibold text-sm overflow-hidden">
-                <img
+                <Image
                   src="https://ui-avatars.com/api/?name=Admin+User&background=0D8ABC&color=fff"
                   alt="User"
-                  className="h-full w-full object-cover"
+                  width={32}
+                  height={32}
+                  className="object-cover"
                 />
               </div>
               <span className="ml-2 font-medium text-sm hidden md:block">Admin User</span>

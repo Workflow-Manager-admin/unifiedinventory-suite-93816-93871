@@ -11,7 +11,7 @@ interface InventoryItemProps {
 
 // PUBLIC_INTERFACE
 export default function InventoryItem({ itemId }: InventoryItemProps) {
-  const { state, dispatch, fetchItem } = useInventory();
+  const { state, fetchItem } = useInventory();
   const { currentItem, isLoading, error } = state;
   
   useEffect(() => {

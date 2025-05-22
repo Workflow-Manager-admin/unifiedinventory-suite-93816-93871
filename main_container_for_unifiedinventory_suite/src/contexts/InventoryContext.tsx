@@ -235,8 +235,9 @@ export function InventoryProvider({ children }: InventoryProviderProps) {
       // In a real app, this would be an API call
       dispatch({ type: 'DELETE_ITEM', payload: id });
       dispatch({ type: 'SET_ERROR', payload: null });
-    } catch (error) {
-      dispatch({ type: 'SET_ERROR', payload: 'Failed to delete item' });
+    } catch (err) {
+      const errorMessage = err instanceof Error ? err.message : 'Failed to delete item';
+      dispatch({ type: 'SET_ERROR', payload: errorMessage });
     } finally {
       dispatch({ type: 'SET_LOADING', payload: false });
     }

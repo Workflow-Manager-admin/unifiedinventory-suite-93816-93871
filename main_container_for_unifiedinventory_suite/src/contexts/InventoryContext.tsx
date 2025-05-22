@@ -136,58 +136,65 @@ export function InventoryProvider({ children }: InventoryProviderProps) {
     dispatch({ type: 'SET_LOADING', payload: true });
     dispatch({ type: 'SET_FILTER', payload: filter });
 
-    // Apply filters to items
-    let result = [...state.items];
+    // Apply filters to items - this function won't re-run unless items change
+    // (not when we update filteredItems)
+    const filterAndSortItems = (items: InventoryItem[], filter: InventoryFilter) => {
+      let result = [...items];
 
-    if (filter.search) {
-      const searchLower = filter.search.toLowerCase();
-      result = result.filter(item => 
-        item.name.toLowerCase().includes(searchLower) || 
-        item.sku.toLowerCase().includes(searchLower) ||
-        item.description?.toLowerCase().includes(searchLower)
-      );
-    }
+      if (filter.search) {
+        const searchLower = filter.search.toLowerCase();
+        result = result.filter(item => 
+          item.name.toLowerCase().includes(searchLower) || 
+          item.sku.toLowerCase().includes(searchLower) ||
+          item.description?.toLowerCase().includes(searchLower)
+        );
+      }
 
-    if (filter.categories && filter.categories.length > 0) {
-      result = result.filter(item => filter.categories?.includes(item.category));
-    }
+      if (filter.categories && filter.categories.length > 0) {
+        result = result.filter(item => filter.categories?.includes(item.category));
+      }
 
-    if (filter.minQuantity !== undefined) {
-      result = result.filter(item => item.quantity >= (filter.minQuantity || 0));
-    }
+      if (filter.minQuantity !== undefined) {
+        result = result.filter(item => item.quantity >= (filter.minQuantity || 0));
+      }
 
-    if (filter.maxQuantity !== undefined) {
-      result = result.filter(item => item.quantity <= (filter.maxQuantity || Infinity));
-    }
+      if (filter.maxQuantity !== undefined) {
+        result = result.filter(item => item.quantity <= (filter.maxQuantity || Infinity));
+      }
 
-    if (filter.location) {
-      result = result.filter(item => item.location === filter.location);
-    }
+      if (filter.location) {
+        result = result.filter(item => item.location === filter.location);
+      }
 
-    // Sort items
-    if (filter.sortBy) {
-      result.sort((a, b) => {
-        const key = filter.sortBy as keyof InventoryItem;
-        const direction = filter.sortDirection === 'desc' ? -1 : 1;
-        
-        // Handle different types of values
-        if (typeof a[key] === 'string') {
-          return direction * (a[key] as string).localeCompare(b[key] as string);
-        }
-        
-        if (typeof a[key] === 'number') {
-          return direction * ((a[key] as number) - (b[key] as number));
-        }
-        
-        if (a[key] instanceof Date && b[key] instanceof Date) {
-          return direction * ((a[key] as Date).getTime() - (b[key] as Date).getTime());
-        }
-        
-        return 0;
-      });
-    }
-
-    dispatch({ type: 'SET_FILTERED_ITEMS', payload: result });
+      // Sort items
+      if (filter.sortBy) {
+        result.sort((a, b) => {
+          const key = filter.sortBy as keyof InventoryItem;
+          const direction = filter.sortDirection === 'desc' ? -1 : 1;
+          
+          // Handle different types of values
+          if (typeof a[key] === 'string') {
+            return direction * (a[key] as string).localeCompare(b[key] as string);
+          }
+          
+          if (typeof a[key] === 'number') {
+            return direction * ((a[key] as number) - (b[key] as number));
+          }
+          
+          if (a[key] instanceof Date && b[key] instanceof Date) {
+            return direction * ((a[key] as Date).getTime() - (b[key] as Date).getTime());
+          }
+          
+          return 0;
+        });
+      }
+      
+      return result;
+    };
+    
+    // Get filtered and sorted items
+    const filteredResult = filterAndSortItems(state.items, filter);
+    dispatch({ type: 'SET_FILTERED_ITEMS', payload: filteredResult });
     dispatch({ type: 'SET_LOADING', payload: false });
   }, [state.items]);
 

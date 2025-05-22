@@ -7,390 +7,103 @@
    - Network:      http://0.0.0.0:3000
 
  ✓ Starting...
- ✓ Ready in 4.3s
+ ✓ Ready in 4.7s
  ○ Compiling / ...
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
- ⨯ ./src/components/layout/MainContainer.tsx:4:1
-Module not found: Can't resolve './Header'
-  2 |
-  3 | import React, { useState, ReactNode } from 'react';
-> 4 | import Header from './Header';
-    | ^
-  5 | import Sidebar from './Sidebar';
-  6 | import { InventoryProvider } from '@/contexts/InventoryContext';
-  7 |
-
-https://nextjs.org/docs/messages/module-not-found
+ ✓ Compiled / in 29.7s (812 modules)
+ ⚠ Blocked cross-origin request from vscode-internal-499405-beta.beta01.cloud.kavia.ai. To allow this, configure "allowedDevOrigins" in next.config
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET / 200 in 3894ms
+ ✓ Compiled in 2.3s (346 modules)
+ ⚠ The "images.domains" configuration is deprecated. Please use "images.remotePatterns" configuration instead.
+ ✓ Compiled in 883ms (346 modules)
+ ⨯ The requested resource "https://ui-avatars.com/api/?name=Admin+User&background=0D8ABC&color=fff" has type "image/svg+xml" but dangerouslyAllowSVG is disabled
+ ✓ Compiled in 906ms (346 modules)
+ ✓ Compiled in 692ms (346 modules)
+ ✓ Compiled in 799ms (346 modules)
+ ✓ Compiled in 898ms (346 modules)
+ ✓ Compiled in 691ms (346 modules)
+ ✓ Compiled in 603ms (346 modules)
+ ✓ Compiled in 690ms (346 modules)
+ ✓ Compiled in 607ms (346 modules)
+ ✓ Compiled in 603ms (346 modules)
+ ✓ Compiled in 495ms (346 modules)
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /inventory in 16s (804 modules)
+ GET /inventory 200 in 12510ms
+ GET /favicon.ico 200 in 17402ms
+ ✓ Compiled in 3.4s (348 modules)
+ GET /inventory 200 in 1799ms
+ GET / 200 in 3406ms
+ ⨯ The requested resource "https://ui-avatars.com/api/?name=Admin+User&background=0D8ABC&color=fff" has type "image/svg+xml" but dangerouslyAllowSVG is disabled
+[Error: ENOENT: no such file or directory, open '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'
+}
+[Error: ENOENT: no such file or directory, open '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'
+}
+[Error: ENOENT: no such file or directory, open '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'
+}
+[Error: ENOENT: no such file or directory, open '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'
+}
+[Error: ENOENT: no such file or directory, open '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'
+}
+[Error: ENOENT: no such file or directory, open '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'
+}
+[Error: ENOENT: no such file or directory, open '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'
+}
+[Error: ENOENT: no such file or directory, open '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'
+}
+[Error: ENOENT: no such file or directory, open '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'
+}
+[Error: ENOENT: no such file or directory, open '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/kavia/workspace/code-generation/unifiedinventory-suite-93816-93871/main_container_for_unifiedinventory_suite/.next/static/webpack/app/layout.5f56d2b68994605d.hot-update.js'
+}

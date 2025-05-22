@@ -199,8 +199,9 @@ export function InventoryProvider({ children }: InventoryProviderProps) {
       const item = state.items.find(item => item.id === id) || null;
       dispatch({ type: 'SET_CURRENT_ITEM', payload: item });
       dispatch({ type: 'SET_ERROR', payload: null });
-    } catch (error) {
-      dispatch({ type: 'SET_ERROR', payload: 'Failed to fetch item details' });
+    } catch (err) {
+      const errorMessage = err instanceof Error ? err.message : 'Failed to fetch item details';
+      dispatch({ type: 'SET_ERROR', payload: errorMessage });
     } finally {
       dispatch({ type: 'SET_LOADING', payload: false });
     }

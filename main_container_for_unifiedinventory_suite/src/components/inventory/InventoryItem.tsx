@@ -2,7 +2,7 @@
 
 import React, { useEffect } from 'react';
 import { useInventory } from '@/contexts/InventoryContext';
-import { inventoryService } from '@/services/inventoryService';
+// Service import removed as it's not used in this component
 import { InventoryTransaction } from '@/types/inventory';
 
 interface InventoryItemProps {

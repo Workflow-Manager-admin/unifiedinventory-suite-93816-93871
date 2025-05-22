@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState, ReactNode } from 'react';
-import Header from '@/components/layout/Header';
-import Sidebar from '@/components/layout/Sidebar';
+import Header from './Header';
+import Sidebar from './Sidebar';
 import { InventoryProvider } from '@/contexts/InventoryContext';
 
 interface MainContainerProps {

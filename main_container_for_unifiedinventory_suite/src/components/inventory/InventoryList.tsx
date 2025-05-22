@@ -93,16 +93,24 @@ export default function InventoryList() {
   };
 
   const handleSort = (sortBy: 'name' | 'quantity' | 'unitPrice' | 'lastUpdated') => {
+    // Create a new filter object without referencing state.filter to avoid loops
     const newSortDirection = 
       filter.sortBy === sortBy && filter.sortDirection === 'asc' 
         ? 'desc' 
         : 'asc';
     
-    applyFilter({
+    // Update the filter with new sort parameters
+    const newFilter: InventoryFilter = {
       ...filter,
       sortBy,
       sortDirection: newSortDirection
-    });
+    };
+    
+    // Update the ref to prevent unnecessary re-renders
+    prevFilterRef.current = newFilter;
+    
+    // Apply the new filter
+    applyFilter(newFilter);
   };
 
   if (isLoading) {

@@ -4,6 +4,7 @@ import React, { useState, ReactNode } from 'react';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import { InventoryProvider } from '@/contexts/InventoryContext';
+import { SupplierProvider } from '@/contexts/SupplierContext';
 
 interface MainContainerProps {
   children: ReactNode;
@@ -19,6 +20,7 @@ export default function MainContainer({ children }: MainContainerProps) {
 
   return (
     <InventoryProvider>
+      <SupplierProvider>
       <div className="flex h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-200">
         {/* Sidebar */}
         <Sidebar isOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
@@ -41,6 +43,7 @@ export default function MainContainer({ children }: MainContainerProps) {
           </footer>
         </div>
       </div>
+      </SupplierProvider>
     </InventoryProvider>
   );
 }
